@@ -15,7 +15,7 @@ def k_to_f(k): #Kelvin to Fahrenheit
 #Welcoming statement
 print(f"Welcome to Temperature convertor. \nHere, you can convert temperature between Celsius, Fahrenheit and Kelvin.")
 temp=int(input("Enter the value of temperature: "))
-unit=input("Enter the unit (C/F/K)").upper()
+unit=input("Enter the unit (C/F/K): ").upper()
 
 if unit == "C": #if user input celsius, output is in fahrenheit and kelvin
     print("In Kelvin,", c_to_k(temp))
